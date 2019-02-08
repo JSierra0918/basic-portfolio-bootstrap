@@ -1,0 +1,16 @@
+body {
+    background: url(../images/crossline-dots.png);
+}
+
+header {
+    background: white;
+}
+
+.custom-logo {
+    background: teal;
+    color: white;
+}
+
+.custom-center-container {
+    background: pink;
+}
