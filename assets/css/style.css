@@ -1,18 +1,33 @@
 body {
-    background: url(../images/crossline-dots.png);
+    /* background: url(../images/crossline-dots.png); */
 }
 
 header {
-    background: white;
+  
 }
 
-.custom-logo {
-    background: teal;
-    color: white;
+.custom-logo a {
+    background-color: black;
+    font-weight: bolder;
+    
+}
+
+.custom-navbar li a{
+    color: black;
+    transition: all .5s;
+}
+
+.custom-navbar li a:hover{
+    color: red;
+}
+
+
+hr {
+    border-top: 4px dotted;
 }
 
 .custom-fig-caption {
-    bottom: 0px;
+    bottom: 5px;
     width: 100%;
     background-color: #007bff;
     color: #fff;
